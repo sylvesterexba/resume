@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/sylvesterChen.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, .6);
+  min-width: 280px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  margin: 5px auto;
+  position: relative;
+  font-size: 18px;
+  width: 100%;
+}
+
+label>input {
+  width: calc(100% - 1em - 8px);
+  font-size: 18px;
+  padding: 8px 4px;
+  /* font-family: "微軟正黑體", 'noto sans tc', sans-serif; */
+  border: 1px solid #888;
+  padding-left: calc(1em + 4px);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
+}
+
+label>input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 4px dodgerblue;
+  background: #fff;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+}
+
+label>input:focus+i {
+  color: dodgerblue;
+}
+
+input[type=submit] {
+  background: dodgerblue;
+  color: #fff;
+  font-size: 18px;
+  border: 0px;
+  padding: 8px 0;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background: darkblue;
+  border-color: darkblue;
+}

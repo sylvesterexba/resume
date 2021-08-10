@@ -1,21 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
+
 body
 {
-	padding:0px;
-	margin:0px;
+	padding:0px; /* 內距 */
+	margin:0px; /* 外距 */
 }
+
 #cover
 {
-	width:100%;
-	height:100%;
-	position:fixed;
-	z-index:5;
-	background:rgba(51,51,51,0.4);
-	top:0px;
+	width:100%; /* 寬 */
+	height:100%; /* 高 */
+	position:fixed;	/* 位置屬性：固定 */
+	z-index:5; /* 堆疊順序 */
+	background:rgba(51,51,51,0.4); /* 背景 */
+	top:0px; 
 	left:0px;
-	overflow:auto;
+	overflow:auto; /* 由瀏覽器定奪，如果內容被修剪，就會顯示滾動條 */
 }
+
 #coverr
 {
 	width:70%;
@@ -33,6 +36,8 @@ body
 	margin:auto;
 	overflow:auto;
 }
+
+/* 網頁整體 */
 #main
 {
 	width:1024px;
@@ -41,6 +46,7 @@ body
 	border:#EE7728 1px solid;
 	position:relative;
 }
+
 .ti
 {
 	width:100%;
@@ -49,23 +55,29 @@ body
 	background-size:cover;
 	background-repeat:no-repeat;
 }
+
+/* 左邊欄位 */
 .dbor
 {
 	border:#EE7728 double 3px;
 	margin:1px;
 	padding:2px 10px 2px 10px;
 }
+
+
 .t
 {
-	font-weight:800;
-	display:block;
-	text-align:center;
+	font-weight:800; /* 文字粗細 */
+	display:block; /* 元素的顯示型態被設定為區塊元素 */
+	text-align:center; /* 文字置中 */
 	padding:10px 1px 10px 1px;
 }
+
 .botli
 {
 	border-bottom:#333 1px solid;
 }
+
 .mainmu
 {
 	position:relative;
@@ -76,11 +88,13 @@ body
 	padding:2px 10px 2px 10px;
 	margin:7px 1px 7px 1px;
 }
+
 .mainmu:hover
 {
 	background:url(../icon/menu2.fw.png) center no-repeat;
 	background-size:cover;
 }
+
 .mainmu2
 {
 	position:relative;
@@ -91,6 +105,7 @@ body
 	padding:2px 10px 2px 10px;
 	margin:7px 1px 7px 1px;
 }
+
 .mainmu2:hover
 {
 	background:url(../icon/menu4.fw.png) center no-repeat;
@@ -106,12 +121,15 @@ body
 	top:20px;
 }
 
+/* 左側切版 */
 #lf
 {
 	height:540px;
 	width:21%;
 	display:inline-block;
 }
+
+
 #menuput
 {
 	width:100%;
@@ -121,19 +139,24 @@ body
 	display:block;
 	margin: 3px;
 }
+
 .di
 {
 	display:inline-block;
 }
+
 .ad
 {
 	margin:1px;
 	padding:2px 10px 2px 10px;
 }
+
+/* 文字置中 */
 .cent
 {
 	text-align:center;
 }
+
 input,button
 {
 	border:#999 1px solid;
@@ -142,27 +165,33 @@ input,button
 	padding:5px;
 	margin:3px;
 }
+
 input:active,button:active
 {
 	background:#E6E6E6;
 }
+
 input[type=text],input[type=password]
 {
 	width:150px;
 }
+
 input:focus,button:focus
 {
 	box-shadow:#09C 0px 0px 3px .3px;
 }
+
 .yel td
 {
 	background:#F3DA49;
 	text-align:center;
 }
+
 .trce td
 {
 	text-align:center;
 }
+
 .bl
 {
 	color:#0CF;
